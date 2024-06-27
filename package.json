@@ -1,0 +1,27 @@
+{
+	"type-not-module": "module",
+	"dependencies": {
+		"sqlite3": "^5.1.7"
+		
+	},
+	"name": "myapp",
+	"version": "1.0.0",
+	"description": "my nodejs project",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "nomad",
+	"license": "",
+	"devDependencies": {
+		"@babel/cli": "^7.24.6",
+		"@babel/core": "^7.24.6",
+		"@babel/node": "^7.24.6",
+		"@babel/plugin-proposal-class-properties": "^7.18.6",
+		"@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+		"@babel/preset-env": "^7.24.6",
+		"nodemon": "^3.1.1",
+		"rimraf": "^5.0.7",
+		"typescript": "^5.5.2"
+	}
+}
